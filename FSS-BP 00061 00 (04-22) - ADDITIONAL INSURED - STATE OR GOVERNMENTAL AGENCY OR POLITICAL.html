@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FSS-BP 00043 00 (04-22) - WAIVER OF TRANSFER OF RIGHTS OF RECOVERY AGAINST OTHERS TO US</title>
+    <style>
+      .container {
+        padding-top: 50px;
+        margin: auto;
+        max-width: 1200px;
+      }
+      p{
+        font-size: 12px;
+      }
+      b{
+        font-size: 12px;
+      }
+      input {
+        border: transparent;
+      }
+      textarea {
+        border: transparent;
+      }
+      .no-space{
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      .flex {
+        display: flex;
+      }
+      .title {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .py-1{
+        padding-top: 2px;
+        padding-bottom: 2px;
+      }
+      .py-2 {
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+      .py-4 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .text-xl{
+        font-size: 26px;
+      }
+      .text-lg {
+        font-size: 20px;
+      }
+      .text-xs {
+        font-size: 12px;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-right {
+        text-align: right;
+      }
+      .text-left {
+        text-align: left;
+      }
+      .mb-4 {
+        margin-bottom: 10px;
+      }
+      .ml-2 {
+        margin-left: 0.5rem;
+      }
+      .ml-6 {
+        margin-left: 15px;
+      }
+      .-ml-6 {
+        margin-left: -15px;
+      }
+      .ml-8 {
+        margin-left: 2rem;
+      }
+      .ml-10 {
+        margin-left: 2.5rem;
+      }
+      .p-2 {
+        padding: 0.5rem;
+      }
+      .font-bold {
+        font-weight: bold;
+      }
+      .flex {
+        display: flex;
+      }
+      .space-x-20 {
+        gap: 5rem;
+      }
+      .space-x-10 {
+        gap: 2.5rem;
+      }
+      .list-none {
+        text-decoration: none;
+        list-style: none;
+      }
+      .px-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+      .px-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .py-6 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .pb-5 {
+        padding-bottom: 1.25rem;
+      }
+      .w-full {
+        width: 100%;
+      }
+      .w-50 {
+        width: 50%;
+      }
+      .w-30 {
+        width: 30%;
+      }
+      .w-24 {
+        width: 6rem;
+      }
+      .text-justify {
+        text-align: justify;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+      .mt-2 {
+        margin-top: 0.5rem;
+      }
+      .ml-2 {
+        margin-left: 0.5rem;
+      }
+      .mt-4 {
+        margin-top: 1rem;
+      }
+      .mb-2{
+        margin-bottom: 0.5rem;
+      }
+      .mt-lg{
+        margin-top: 4rem;
+      }
+      .mb-5 {
+        margin-bottom: 1.25rem;
+      }
+      .ml-5 {
+        margin-left: 1.25rem;
+      }
+      .-ml-5 {
+        margin-left: -1.25rem;
+      }
+      .border-t {
+        border-top: 1px solid black;
+      }
+      .border-b {
+        border-bottom: 1px solid black;
+      }
+      .border-l {
+        border-left: 1px solid black;
+      }
+      .border {
+        border: 1px solid black;
+      }
+      .float-right{
+        float: right;
+      }
+      .bg-gray{
+        color: gray;
+      }
+      ol {
+        list-style-type: upper-alpha; /* Use uppercase letters */
+      }
+
+      .custom-list {
+        list-style: none;
+        counter-reset: item;
+      }
+
+      .custom-list li::before {
+        content: "(" counter(item) ")";
+        counter-increment: item;
+        margin-right: 0.5rem;
+      }
+
+      .list-decimal {
+        list-style-type: decimal;
+      }
+
+      .list-inside {
+        list-style-position: inside;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+      table tr td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      table tr {
+        border-collapse: collapse;
+      }
+      .border-collapes {
+        border-collapse: collapse;
+      }
+      .table tr td {
+        border: none;
+      }
+      .policy-header{
+        padding-top: 12px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: none;
+      }
+      .policy-header, .policy-header tr, .policy-header td{
+        border: none;
+        font-size: 14px;
+      }
+      .policy-header tbody tr:first-child td{
+        font-weight: 600;
+        color: gray;
+        font-size: 14px;
+      }
+      .footer{
+        width: 100%;
+        border: none;
+        margin-top: 32px;
+      }
+      .footer, .footer tr, .footer td{
+        border-style: dotted;
+        border-width: 1px;
+        border-color: gray;
+        border: none;
+      }
+      .footer td{
+        height: 50px;
+        color: gray;
+      }
+      .footer td:nth-child(1){
+        font-size: 13px;
+      }
+      .footer td:nth-child(2){
+        font-size: 12px;
+      }
+      .footer td:nth-child(3){
+        font-size: 13px;
+      }
+      .section{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+      }
+      .section p{
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .page-container{
+        max-width: 1024px;
+        margin: auto;
+        position: relative;
+        padding: 8px;
+      }
+      .min-h-container {
+        min-height: 768px;
+      }
+    </style>
+  </head>
+  <body class="page-container">
+    <table class="policy-header">
+      <tbody>
+        <tr>
+          <td>
+            POLICY NUMBER:
+          </td>
+          <td style="text-align: right;">
+            BUSINESSOWNERS
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+      
+    </table>
+    <p class="bg-gray text-center" style="margin-top: 24px;">THIS ENDORSEMENT CHANGES THE POLICY. PLEASE READ IT CAREFULLY.</p>
+    <form class="mx-auto">
+      <div>
+        <p class="text-xl font-bold text-center">
+          ADDITIONAL INSURED – STATE OR GOVERNMENTAL AGENCY OR POLITICAL
+          SUBDIVISIONS – PERMITS OR AUTHORIZATIONS RELATING TO PREMISES
+        </p>
+        <p class="text-xs">
+          This endorsement modifies insurance provided under the following:
+        </p>
+        <p class="ml-6 font-bold text-xs">
+          SELF-STORAGE OWNERS BUSINESSOWNERS COVERAGE FORM
+        </p>
+        <p class="py-2 font-bold text-xs text-center">SCHEDULE*</p>
+      </div>
+      <div class="w-full border">
+        <div style="padding-bottom: 70px">
+          <p class="font-bold text-xs px-2 py-1" style="border-bottom: 1px solid black; margin: auto;">
+            State Or Governmental Agency Or Political Subdivision:
+          </p>
+        </div>
+        <div class="border-t text-xs px-2">
+          *Information required to complete this Schedule, if not shown above,
+          will be shown in the Declarations.
+        </div>
+      </div>
+      <div>
+        <p><b>A.</b> 	The following is added to Paragraph <b>C. Who Is An Insured in SECTION II – LIABILITY COVERAGE FORM: </b></p>
+        <div style="padding-left: 12px;">
+          <div class="section">
+            <div style="padding-left: 8px !important; margin-top: -4px !important;"><b>5. </b></div>
+            <div style="padding-left: 8px !important;">
+              <p>
+                Any state or political subdivision shown in the Schedule is also an insured, subject to the following additional provision: 
+              </p>
+              <div style="margin-top: 8px !important;">
+                <div class="section">
+                  <b>a. </b>
+                  <p style="padding-left: 8px !important;">
+                    This insurance applies only with respect to operations performed by you or on your behalf  
+                    for which the state or governmental agency or political subdivision has issued a permit or 
+                    authorization in connection with premises you own, rent, or control and to which this insurance applies: 
+                  </p>
+                </div>
+                <div style="margin-left: 16px !important;">
+                  <div class="section">
+                    <b style="font-size: 11px;">(1)</b>
+                    <p style="padding-left: 4px !important;">
+                      The existence, maintenance, repair, construction, erection, or removal of advertising signs, awnings, 
+                      canopies, cellar entrances, coal holes, driveways, manholes, marquees, hoistaway openings, sidewalk vaults, 
+                      street banners, or decoration and similar exposures; 
+                    </p>
+                  </div>
+                  <div class="section">
+                    <b style="font-size: 11px;">(2)</b>
+                    <p style="padding-left: 4px !important;">
+                      The construction, erection, or removal of elevators; or
+                    </p>  
+                  </div>
+                  <div class="section">
+                    <b style="font-size: 11px;">(3)</b>
+                    <p style="padding-left: 4px !important;">
+                      The ownership, maintenance, or use of any elevators covered by this insurance. 
+                    </p>
+                  </div>
+                </div>
+                <div class="section">
+                  <b>a. </b>
+                  <p style="padding-left: 8px !important;">
+                    This insurance does not apply to: 
+                  </p>
+                </div>
+                <div style="margin-left: 16px !important;">
+                  <div class="section">
+                    <b style="font-size: 11px;">(1)</b>
+                    <p style="padding-left: 4px !important;">
+                      "Bodily injury", "property damage" or "personal and advertising injury" 
+                      arising out of operations performed for the federal government, state or municipality; or 
+                    </p>
+                  </div>
+                  <div class="section">
+                    <b style="font-size: 11px;">(2)</b>
+                    <p style="padding-left: 4px !important;">
+                      "Bodily injury" or "property damage" included within the "products-completed operations hazard". 
+                    </p>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <footer>
+      <table class="footer">
+        <td class="text-center px-2" style="width: 20%; vertical-align: top;">FSS-BP 00061 00 (04/22)</td>
+        <td class="text-center" style="width: 60%; vertical-align: bottom;">Includes material copyrighted by ISO Properties. Inc., with its permission.</td>
+        <td class="text-center" style="width: 20%; vertical-align: top;">Page 1 of 2</td>
+      </table>
+    </footer>
+  </body>
+</html>

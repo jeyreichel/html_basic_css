@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CG 20 01 12 19 Primary and Noncontributory</title>
+    <style>
+      .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: right;
+        line-height: 15px;
+      }
+      .container {
+        padding-top: 50px;
+        margin: auto;
+        max-width: 1200px;
+      }
+      p{
+        font-size: 12px;
+      }
+      b{
+        font-size: 12px;
+      }
+      input {
+        border: transparent;
+      }
+      textarea {
+        border: transparent;
+      }
+      .bg-gray{
+        color: gray;
+      }
+      .flex {
+        display: flex;
+      }
+      .title {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .py-2 {
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+      .py-4 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .text-lg {
+        font-size: 20px;
+      }
+      .text-xs {
+        font-size: 12px;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-right {
+        text-align: right;
+      }
+      .text-left {
+        text-align: left;
+      }
+      .mb-4 {
+        margin-bottom: 10px;
+      }
+      .ml-2 {
+        margin-left: 0.5rem;
+      }
+      .ml-6 {
+        margin-left: 15px;
+      }
+      .-ml-6 {
+        margin-left: -15px;
+      }
+      .ml-8 {
+        margin-left: 2rem;
+      }
+      .ml-10 {
+        margin-left: 2.5rem;
+      }
+      .p-2 {
+        padding: 0.5rem;
+      }
+      .font-bold {
+        font-weight: bold;
+      }
+      .flex {
+        display: flex;
+      }
+      .space-x-20 {
+        gap: 5rem;
+      }
+      .space-x-10 {
+        gap: 2.5rem;
+      }
+      .list-none {
+        text-decoration: none;
+        list-style: none;
+      }
+      .px-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+      }
+      .px-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .py-6 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .pb-5 {
+        padding-bottom: 1.25rem;
+      }
+      .w-full {
+        width: 100%;
+      }
+      .w-50 {
+        width: 50%;
+      }
+      .w-30 {
+        width: 30%;
+      }
+      .w-24 {
+        width: 6rem;
+      }
+      .text-justify {
+        text-align: justify;
+      }
+      .justify-between {
+        justify-content: space-between;
+      }
+      .mt-2 {
+        margin-top: 0.5rem;
+      }
+      .mb-5 {
+        margin-bottom: 1.25rem;
+      }
+      .ml-5 {
+        margin-left: 1.25rem;
+      }
+      .-ml-5 {
+        margin-left: -1.25rem;
+      }
+      .border-t {
+        border-top: 1px solid black;
+      }
+      .border {
+        border: 1px solid black;
+      }
+      ol {
+        list-style-type: upper-alpha; /* Use uppercase letters */
+      }
+
+      .custom-list {
+        list-style: none;
+        counter-reset: item;
+      }
+
+      .custom-list li::before {
+        content: "(" counter(item) ")";
+        counter-increment: item;
+        margin-right: 0.5rem;
+      }
+
+      .list-decimal {
+        list-style-type: decimal;
+      }
+
+      .list-inside {
+        list-style-position: inside;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      table{
+        margin: 0;
+        padding: 0;
+      }
+
+      .policy-header{
+        /* padding-top: 12px; */
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: none;
+      }
+      .policy-header, .policy-header tr, .policy-header td{
+        border: none;
+        font-size: 14px;
+      }
+      .policy-header tbody tr:first-child td{
+        font-weight: 600;
+        color: gray;
+        font-size: 14px;
+      }
+      .policy-header tbody tr:first-child td{
+        font-weight: 600;
+        color: gray;
+      }
+      .footer{
+        width: 100%;
+        border: none;
+        margin-top: 32px;
+        /* display: grid;
+        grid-template-rows: 20% 60% 20%; */
+      }
+      .footer, .footer tr, .footer td{
+        border-style: dotted;
+        border-width: 1px;
+        border-color: gray;
+        border: none;
+      }
+      .footer td{
+        height: 50px;
+        /* padding: 4px; */
+        color: gray;
+      }
+      .footer td:nth-child(1){
+        font-size: 13px;
+      }
+      .footer td:nth-child(2){
+        font-size: 12px;
+      }
+      .footer td:nth-child(3){
+        font-size: 13px;
+      }
+      .page-container{
+        max-width: 1024px;
+        margin: auto;
+        padding: 8px;
+        position: relative;
+      }
+      .min-h-container {
+        min-height: 768px;
+      }
+    </style>
+  </head>
+  <body class="page-container">
+    <div class="min-h-container">
+    <form class="mx-auto">
+      <table class="policy-header">
+        <tbody>
+          <tr>
+            <td>
+              POLICY NUMBER:
+            </td>
+            <td style="text-align: right;">
+              BUSINESSOWNERS
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="bg-gray text-center" style="margin-top: 24px">THIS ENDORSEMENT CHANGES THE POLICY. PLEASE READ IT CAREFULLY.</p>
+      <div>
+        <p class="title text-lg">
+          PRIMARY AND NONCONTRIBUTORY – OTHER INSURANCE CONDITION
+        </p>
+        <p class="py-4 text-xs">
+          This endorsement modifies insurance provided under the following:
+        </p>
+        <p class="ml-6 font-bold text-xs">
+          SELF-STORAGE OWNERS BUSINESSOWNERS COVERAGE FORM
+        </p>
+      </div>
+      <div
+        class="py-6 w-full text-xs text-justify"
+        style="margin-bottom: 400px"
+      >
+        <table class="w-full">
+          <tr>
+            <td class="w-50" style="padding-right: 15px">
+              <div>
+                <p>
+                  The following provision is added to Paragraph <b>7. 
+                  Other Insurance of SECTION II – LIABILITY COVERAGE FORM,</b> Paragraph <b>E. 
+                  General Conditions Applicable to SECTION II – LIABILITY COVERAGE FORM: </b>
+                </p>
+              </div>
+              <p class="ml-6" style="font-size: small; font-weight: 700;">Primary And Noncontributory Insurance </p>
+              <div class="pl-6 ml-6">
+                <p>
+                  This insurance is primary to and will not seek contribution from any other insurance available to an additional insured under your policy provided that:
+                </p>
+                <p>
+                  <b>1. </b> The additional insured is a Named Insured under such
+                  other insurance; and
+                </p>
+                <p>
+                  <b>2. </b>You have agreed in writing in a contract or agreement that this insurance would be primary and would not seek 
+                    contribution from any other insurance available to the additional insured. 
+                </p>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+      <footer>
+        <table class="footer">
+          <td class="text-center px-2" style="width: 20%; vertical-align: top;">FSS-BP 00055 00 (04/22)</td>
+          <td class="text-center" style="width: 60%; vertical-align: bottom;">Includes material copyrighted by ISO Properties. Inc., with its permission.</td>
+          <td class="text-center" style="width: 20%; vertical-align: top;"></td>
+        </table>
+      </footer>
+    </form>
+  </body>
+</html>
